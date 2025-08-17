@@ -60,6 +60,24 @@ I follow a structured approach to problem-solving:
 
 ---
 
+## 📚 Topics Covered
+
+Arrays: Linear scan, sliding window, two pointers, etc.
+
+Strings: Pattern matching, anagram detection, palindrome checks, etc.
+
+Linked Lists: Reversal, cycle detection, merging, etc.
+
+Stacks & Queues: Implementation using arrays and linked lists.
+
+Trees: Traversals, binary search trees, heaps, etc.
+
+Graphs: BFS, DFS, shortest path algorithms, etc.
+
+Dynamic Programming: Knapsack problem, longest common subsequence, etc.
+
+---
+
 ## 🤝 Contributing
 
 Contributions are welcome! If you have suggestions for additional problems, optimizations, or improvements, feel free to fork the repository and submit a pull request.
