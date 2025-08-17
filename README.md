@@ -6,14 +6,6 @@ I’m building this repo step by step — arrays, strings, recursion, and more �
 
 ---
 
-## 📌 Progress
-
-| Day | Topic  | Problems Solved |
-|-----|--------|-----------------|
-| 1   | Arrays | Max/Min variations (Brute + Optimized), Reverse Array (Brute + Optimized) |
-
----
-
 ## 🎯 Goals
 - Strengthen Core Java + DSA fundamentals  
 - Practice with brute force → optimized approach  
