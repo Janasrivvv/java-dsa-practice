@@ -12,7 +12,7 @@ Output: Array is Sorted
 Input: [1, 2, 3, 4, 5, 1]
 Output: Array is Unsorted
 
-Approach:
+Brute Force Approach:
 ---------
 - Use two nested loops to compare each element with all later elements.
 - If any arr[i] > arr[j], then the array is not sorted.
@@ -42,6 +42,43 @@ public class Main {
                 }
             }
             if (!isSorted) break; // break outer loop
+        }
+
+        if (isSorted) {
+            System.out.println("Array is Sorted");
+        } else {
+            System.out.println("Array is Unsorted");
+        }
+    }
+}
+
+Optimized Approach:
+---------
+- Traverse the array once.
+- Compare each element with its next neighbor.
+- If any arr[i] > arr[i+1], array is not sorted.
+- Otherwise, after the loop, the array is sorted.
+
+Time Complexity:
+----------------
+O(n) → Only one pass through the array.
+
+Space Complexity:
+-----------------
+O(1) → Constant extra space.
+*/
+
+public class Main {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4, 5};
+        int n = arr.length;
+        boolean isSorted = true;
+
+        for (int i = 0; i < n - 1; i++) {
+            if (arr[i] > arr[i + 1]) {
+                isSorted = false;
+                break;
+            }
         }
 
         if (isSorted) {
