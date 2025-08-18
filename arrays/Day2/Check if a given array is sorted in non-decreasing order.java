@@ -52,6 +52,7 @@ public class Main {
     }
 }
 
+/*
 Optimized Approach:
 ---------
 - Traverse the array once.
