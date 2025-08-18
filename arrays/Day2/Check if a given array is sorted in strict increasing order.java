@@ -8,7 +8,7 @@ Optimized Approach:
 ---------
 - Traverse the array once.
 - Compare each element with its next neighbor.
-- If any arr[i] > arr[i+1], array is not sorted.
+- If any arr[i] >= arr[i+1], array is not sorted.(no duplicates accepted)
 - Otherwise, after the loop, the array is sorted.
 
 Time Complexity:
