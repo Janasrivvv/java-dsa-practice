@@ -6,7 +6,7 @@ If every element arr[i] is <= arr[j] for all j > i, then the array is sorted.
 Otherwise, it is unsorted.
 
 Example:
-Input: [1, 2, 3, 4, 5]
+Input: [1, 2, 2, 3, 4, 4, 5]
 Output: Array is Sorted
 
 Input: [1, 2, 3, 4, 5, 1]
