@@ -1,6 +1,6 @@
 /*
 Problem: Maximum Consecutive Ones in a Binary Array
-Approach: Linear scan, count consecutive 1s, track max
+Approach: Linear scan, count consecutive 1s, reset on 0, track max
 TC: O(n) | SC: O(1)
 */
 
