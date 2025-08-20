@@ -14,6 +14,6 @@ All solutions are implemented in **Java**, following interview-friendly approach
 | Maximum Consecutive Zeros | `MaxConsecutiveZeros.java` | Linear Scan | Variation of GEK with k = 0 | Count consecutive `0`s, reset if `1` | O(n) / O(1) |
 | Leaders in Array | `LeaderArray.java` | Nested Scan | Print elements greater than all elements to their right | For each element, check all right-side elements | O(n²) / O(1) |
 | Leaders in Array (Optimized) | `LeaderArrayOptimized.java` | Reverse Scan + Tracking Max | Optimized approach | Traverse from right, maintain running max | O(n) / O(1) |
-
+| Leaders in Array (Reverse Order) | `LeaderArrayReverse.java` | Reverse Scan + List | Leaders collected in reverse order | Traverse from right, collect leaders, print list | O(n) / O(n) |
 
 
