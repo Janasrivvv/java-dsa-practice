@@ -7,13 +7,15 @@ All solutions are implemented in **Java**, following interview-friendly approach
 
 ## ✅ Problems Solved
 
-| Problem | File Name | Pattern | Variation / Notes | Approach | TC / SC |
-|---------|-----------|---------|-------------------|----------|---------|
-| Maximum Consecutive Elements ≥ k | `MaxConsecutiveGEK.java` | Linear Scan | Generalized version | Count consecutive `arr[i] ≥ k`, reset otherwise | O(n) / O(1) |
-| Maximum Consecutive Ones | `MaxConsecutiveOnes.java` | Linear Scan | Special case of GEK with k = 1 | Count consecutive `1`s, reset if `0` | O(n) / O(1) |
-| Maximum Consecutive Zeros | `MaxConsecutiveZeros.java` | Linear Scan | Variation of GEK with k = 0 | Count consecutive `0`s, reset if `1` | O(n) / O(1) |
-| Leaders in Array | `LeaderArray.java` | Nested Scan | Print elements greater than all elements to their right | For each element, check all right-side elements | O(n²) / O(1) |
-| Leaders in Array (Optimized) | `LeaderArrayOptimized.java` | Reverse Scan + Tracking Max | Optimized approach | Traverse from right, maintain running max | O(n) / O(1) |
-| Leaders in Array (Reverse Order) | `LeaderArrayReverse.java` | Reverse Scan + List | Leaders collected in reverse order | Traverse from right, collect leaders, print list | O(n) / O(n) |
+| Problem                               | File Name                       | Pattern                     | Variation / Notes                                       | Approach                                         | TC / SC      |
+| ------------------------------------- | ------------------------------- | --------------------------- | ------------------------------------------------------- | ------------------------------------------------ | ------------ |
+| Maximum Consecutive Elements ≥ k      | `MaxConsecutiveGEK.java`        | Linear Scan                 | Generalized version                                     | Count consecutive `arr[i] ≥ k`, reset otherwise  | O(n) / O(1)  |
+| Maximum Consecutive Ones              | `MaxConsecutiveOnes.java`       | Linear Scan                 | Special case of GEK with k = 1                          | Count consecutive `1`s, reset if `0`             | O(n) / O(1)  |
+| Maximum Consecutive Zeros             | `MaxConsecutiveZeros.java`      | Linear Scan                 | Variation of GEK with k = 0                             | Count consecutive `0`s, reset if `1`             | O(n) / O(1)  |
+| Leaders in Array                      | `LeaderArray.java`              | Nested Scan                 | Print elements greater than all elements to their right | For each element, check all right-side elements  | O(n²) / O(1) |
+| Leaders in Array (Optimized)          | `LeaderArrayOptimized.java`     | Reverse Scan + Tracking Max | Optimized approach                                      | Traverse from right, maintain running max        | O(n) / O(1)  |
+| Leaders in Array (Reverse Order)      | `LeaderArrayReverse.java`       | Reverse Scan + List         | Leaders collected in reverse order                      | Traverse from right, collect leaders, print list | O(n) / O(n)  |
+| Leaders in Circular Array             | `CircularLeadersBrute.java`     | Nested Scan + Modulo        | Circular version of leaders                             | For each element, check all others using modulo  | O(n²) / O(1) |
+| Leaders in Circular Array (Optimized) | `CircularLeadersOptimized.java` | Max Element Trick           | Only maximum element(s) can be leaders                  | Find max and print all occurrences               | O(n) / O(1)  |
 
 
