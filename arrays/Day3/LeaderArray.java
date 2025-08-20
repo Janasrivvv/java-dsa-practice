@@ -5,7 +5,7 @@ Example: [16, 17, 4, 3, 5, 2] → Leaders = [17, 5, 2]
 Approach: For each element, check all elements to the right.
 Time Complexity: O(n^2)
 Space Complexity: O(1)
-BRUTE FORCE
+BRUTE FORCE APPROACH
 */
 
 public class LeadersInArray {
